@@ -1,63 +1,32 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+/* styles.css */
+/* الكود السابق يبقى كما هو */
+
+.settings {
+    padding: 20px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+.settings form {
+    display: flex;
+    flex-direction: column;
 }
 
-.logo img {
-  width: 100px;
+.settings label {
+    margin-top: 10px;
 }
 
-.user button {
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+.settings input, .settings textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-.product {
-  width: 200px;
-  margin: 20px;
-  text-align: center;
-}
-
-.product img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.product h3 {
-  margin: 10px 0;
-}
-
-.rating {
-  color: orange;
-}
-
-footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.footer-link img {
-  width: 30px;
-  margin-bottom: 5px;
+.settings button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
