@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.user button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.rating {
+  color: orange;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-link img {
+  width: 30px;
+  margin-bottom: 5px;
+}
